@@ -40,3 +40,6 @@
 // console.log(y);//x,y都是2
 // let [x=1,y=2] = [1,2]
 // console.log(x,y)
+//2.对象的结构
+var {foo,bar} = {foo:"aaa",bar:"bbb"}
+console.log(foo+bar);
